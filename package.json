@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "lucide-react": "^0.552.0"
+    "lucide": "^0.553.0",
+    "remixicon": "^4.7.0"
   }
 }

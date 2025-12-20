@@ -1,0 +1,14 @@
+
+.header{
+    background: rosybrown;
+    width:fit-content ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+    background: rgb(173, 173, 96);
+}
+.logo{
+    text-decoration: underline;
+}
