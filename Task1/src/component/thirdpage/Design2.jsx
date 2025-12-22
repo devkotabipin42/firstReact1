@@ -2,7 +2,7 @@ import React from 'react'
 
 const design2 = () => {
   return (
-    <div className='flex gap-6 ml-[6px] mr-[5px] mb-[6px] '>
+    <div className='flex gap- ml-[6px] mr-[5px] mb-[6px] '>
        <div  className=' text-[8px] text-[#8c8b88]  '>
         <div className='h-[22vh] w-[99%] flex p-5 gap-8  bg-[#24221d] rounded-2xl mb-2'>
           <div className='flex flex-col'>
@@ -25,7 +25,7 @@ const design2 = () => {
         </div>
       </div>
       </div>
-      <img src="https://images.unsplash.com/photo-1692655118968-577a1e373ffd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className='h-[45vh] w-[110%] object-cover object-center rounded-2xl  '/>
+      <img src="https://images.unsplash.com/photo-1692655118968-577a1e373ffd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className='h-[45vh] w-[100%] object-cover object-center rounded-2xl  '/>
     </div>
   )
 }
