@@ -9,8 +9,7 @@ const ProductContext = (props) => {
   const setData =async()=>{
     const data =await getData()
     setproductData(data)
-  }
-
+    }
   useEffect(function(){
    setData()
   },[])

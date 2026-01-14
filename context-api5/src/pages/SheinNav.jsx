@@ -8,7 +8,7 @@ const SheinNav = () => {
       <div className='flex gap-7 p-3 mr-3'>
         <p>Add Product</p>
         <p>My Product</p>
-        <p> Card</p>
+        <Link to='/shein/:productId/cart' > Card</Link>
       </div>
     </div>
   )
