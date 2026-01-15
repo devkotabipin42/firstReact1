@@ -3,18 +3,17 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import { BrowserRouter } from "react-router-dom";
-import CartContext from './Context/CartContext.jsx';
-import CardContext from '../../api-practise/src/Context/CardContext.jsx';
+import CardContext from './Context/CardContext.jsx';
+import CardProvider from './Context/CartContext.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    
     <BrowserRouter>
-    <CartContext>
     <CardContext>
-      <App/>
+      <CardProvider>
+    <App />
+    </CardProvider>
     </CardContext>
-    </CartContext>
     </BrowserRouter>
   </StrictMode>,
 )
