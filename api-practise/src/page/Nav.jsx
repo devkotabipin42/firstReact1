@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Nav = () => {
   return (
-    <div className='h-fit w-screen p-3 bg-blue-900 flex justify-between'>
+    <div className='h-fit w-screen  p-3 bg-blue-900 flex justify-between '>
       <Link to='/Shein'>Shein</Link>
      <div className=' flex gap-6 mr-3'>
        <Link to='/' >Home</Link>
